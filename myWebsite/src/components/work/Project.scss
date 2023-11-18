@@ -1,6 +1,6 @@
 .projects {
     align-items: center;
-    display: flex;
+    // display: flex;
     justify-content: center;
     width: 100%;
     height: 90vh;
@@ -16,9 +16,23 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    @media(max-width:767px){
+      width: 80%;      // display: block;
+      flex-direction: column;
+      margin-top: calc(45vh - 80%);
+
+    }
     .imageContainer{
-      // flex: 1;
-      height: 80%;
+      flex: 0.5;
+      height: 60%;
+      // width: 70%;
+      @media(max-width:767px){
+          width: 100%;    
+          flex: 0.3;
+          max-height: 400px;
+
+  
+      }
       img{
         width: 100%;
         height: 100%;
@@ -26,13 +40,40 @@
       }
     }
     .textContainer {
+      @media(max-width:767px){
+        transform: none !important;
+        // padding: 10px;
+        // align-items: center;
+        // text-align: center;
+
+    }
       flex: 1;
       display: flex;
       flex-direction: column;
       gap: 30px;
+      h5{
+        font-size: 2rem;
+      }
+      .tools{
+        display: flex;
+        justify-content: space-between;
+        p{
+          color: grey;
+          font-size: 1.1rem;
+        }
+       
+      }
+    }
+    #toolsUsed{
+    justify-items: flex-end;
+      color: white;
+      fill: white;
+      margin-left: 1rem;
     }
   }
-
+h5{
+  text-decoration: underline;
+}
 
 }
 

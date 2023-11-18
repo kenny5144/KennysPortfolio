@@ -13,6 +13,9 @@
         left: 0;
         bottom: 0;
         background: white;
+        @media(max-width:787px){
+            width: 100%;
+        }
     }
     button{
         z-index: 999;

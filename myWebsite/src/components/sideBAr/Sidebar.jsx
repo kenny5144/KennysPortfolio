@@ -8,7 +8,7 @@ const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleBetween = () => {
     setIsOpen(!isOpen);
-    console.log("you have opened the navBAr ");
+    // console.log("you have opened the navBAr ");
   };
   const Variant = {
     open: {

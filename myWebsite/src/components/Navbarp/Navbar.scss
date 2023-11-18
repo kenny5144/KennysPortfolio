@@ -16,11 +16,19 @@
     h1{
         font-weight: bold;
         color: white;
+        @media(max-width: 787){
+
+            margin-left: 1rem;
+        }
     
     }
     .socials{
         display: flex;
         gap: 20px;
+        @media(max-width: 767px){
+            margin-right: 1rem;
+
+        }
     }
     a > svg{
         fill: white;

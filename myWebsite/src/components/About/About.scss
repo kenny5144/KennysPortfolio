@@ -1,24 +1,65 @@
 .About {
     background-color: #132238;
     height: 100vh;
+   
 
     .mainContent{
         display: flex;
         color: white;
-        // margin: auto;
         max-width: 1366px;
         height: 100vh;
         align-items: center;
+        margin: 0 auto;
+      
         justify-content: space-around;
+        @media(max-width:787px){
+            flex-direction: column;
+            margin: 0;
+        }
         .aboutP{
-            width: 50%;
-        }
-    }
-    .skills{
-        font-size: 4rem;
-        // justify-content: space-around;
-        span{
-        }
+            width: 60%;
+            font-size: 1.5rem;
+            // border: solid;
+            @media(max-width:787px){
+                font-size: 1.2rem;
+                margin-bottom: 0;
+                width: 80%;
+            }
+            span{
+                font-weight: bolder;
+                color: white;
+                font-size: 2rem;
 
+             
+            }
+            h4{
+                margin-top: 2rem;
+                color: #A5ACB5;
+            }
+        }
+        .skills{
+            @media(max-width:787px){
+                margin-top: -10rem;
+                font-size: 2rem;
+            }
+            font-size: 4rem;
+            // justify-content: space-around;
+            // border: solid;
+            width: 40%;
+            height: 17rem;
+            text-align: center;
+            .skillsItem{
+                margin-top: 2rem;
+                @media(max-width:787px){
+                    display: flex;
+                }
+                svg{
+                    padding-left: 1rem;
+                    font-size: 6rem;
+                }
+            }
+         
+            
+        }
     }
 }

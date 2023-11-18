@@ -1,6 +1,6 @@
 import { React, useRef } from "react";
 import { motion, useScroll,  useTransform } from "framer-motion";
-
+ 
 import "./Project.scss";
 const Projects = ({ item }) => {
   const ref = useRef();
@@ -22,10 +22,20 @@ const Projects = ({ item }) => {
             <h5 className="">{item.title}</h5>
             <p>{item.des}</p>
             <span className="tools">
-              <p className="">Tools Used</p> <span>{item.tools}</span>
+              <p className="">Tools Used</p>
+              <div>
+
+             { console.log(item.tools)}
+              {Array.isArray(item.tools) ?item.tools.map((tool,index)=>(
+
+              <span id="toolsUsed" key={index}>{tool}</span>
+              ))
+              :""
+            } 
+              </div>
             </span>
           </motion.div>
-        </div>
+        </div>.
       </div>
     </section>
   );

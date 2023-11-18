@@ -17,7 +17,7 @@ const Contact = () => {
       return { ...prev, [name]: value };
     });
   }
-  console.log("hi", emailInput)
+  // console.log("hi", emailInput)
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -43,15 +43,15 @@ const Contact = () => {
           <h1>Let’s work together</h1>
           <div className="item">
             <h2>Mail</h2>
-            <span>hello@react.dev</span>
+            <span>ojok761@gmail.com</span>
           </div>
           <div className="item">
-            <h2>Address</h2>
-            <span>Hello street New York</span>
+            <h2>Location</h2>
+            <span>Orange NJ</span>
           </div>
           <div className="item">
             <h2>Phone</h2>
-            <span>+1 234 5678</span>
+            <span>+973 757 8155</span>
           </div>
         </div>
         <div className="formContainer">
