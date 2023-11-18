@@ -19,6 +19,7 @@
         color: rgb(5, 213, 250);
         @media(max-width: 768px){
          font-size: 1.5rem;
+         margin-top: 1rem;
          padding: 2rem 0;
          text-align: center;
         }
@@ -77,11 +78,14 @@
        width: 30rem;
        border-radius: 1rem;
        @media (max-width: 767px) {
-         width:80%;
-         margin-top: 2rem;
-         margin-left: 5rem;
-         justify-content: space-around;
+         width:60%;
+         display: flex;
+         // margin-top: 2rem;
+         margin: auto;
+         // margin-left: 5rem;
+         justify-content: center;
        }
+
     }
 
 }
