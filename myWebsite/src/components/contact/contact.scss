@@ -37,14 +37,14 @@
 
       @media (max-width:767px) {
         font-size: 36px;
-        margin-top: 2rem;
+        margin-top: 1rem;
       }
     }
-    h2{
-      @media (max-width:767px) {
-        font-size: 36px;
-      }
-    }
+    // h2{
+    //   @media (max-width:767px) {
+    //     font-size: 36px;
+    //   }
+    // }
 
     span {
       font-weight: 300;
@@ -61,6 +61,7 @@
     @media (max-width:767px){
       // padding: 50px;
       width: 100%;
+      margin-top: -4rem;
     }
 
 
