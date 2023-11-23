@@ -27,8 +27,8 @@ const Main = () => {
         </motion.div>
 
       </motion.div>
-      <div>
-        <img id="me"  src={me} alt="" />
+      <div className="me">
+        <img   src={me} alt="" />
       </div>
     </div>
   )

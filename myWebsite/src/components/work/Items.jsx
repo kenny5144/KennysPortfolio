@@ -20,7 +20,7 @@ export const items = [
       id: 1,
       title: <a target="blank" href="https://kennystudios.com/">Kennys Studio</a> ,
       img: devicef,
-      des: "I meticulously crafted an exquisite photography showcase using the powerful combination of React and Tailwind CSS. The result is a visually stunning website with a modern and sleek user interface, designed to seamlessly showcase the photographer's portfolio. Leveraging the flexibility of React components, the website ensures smooth navigation and dynamic presentation of captivating visual content.",
+      des: "I meticulously crafted an exquisite photography showcase using the powerful combination of React and Tailwind CSS. The result is a visually stunning website with a modern and sleek user interface, designed to seamlessly showcase the photographer's portfolio. ",
       tools: [react],
     },
     {

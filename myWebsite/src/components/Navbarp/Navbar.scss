@@ -14,11 +14,11 @@
     justify-content: space-between;
 
     h1{
-        font-weight: bold;
+         font-weight: bold;
         color: white;
-        @media(max-width: 787){
+        @media(max-width: 767px){
 
-            margin-left: 1rem;
+            margin-left: 2rem;
         }
     
     }

@@ -9,26 +9,30 @@
         max-width: 1366px;
         height: 100vh;
         align-items: center;
-        margin: 0 auto;
       
         justify-content: space-around;
         @media(max-width:787px){
             flex-direction: column;
-            margin: 0;
+            
         }
         .aboutP{
-            width: 60%;
+            width: 50%;
             font-size: 1.5rem;
             // border: solid;
             @media(max-width:787px){
-                font-size: 1.2rem;
+                font-size: 1rem;
                 margin-bottom: 0;
                 width: 80%;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                height: fit-content;
+                // border: 1px solid;
             }
             span{
                 font-weight: bolder;
                 color: white;
-                font-size: 2rem;
+                font-size: 2.2rem;
 
              
             }
@@ -38,13 +42,13 @@
             }
         }
         .skills{
-            @media(max-width:787px){
-                margin-top: 10rem;
+            @media(max-width:767px){
                 font-size: 2rem;
+                width: 80%;
+                height: 40%;
+                // border: 1px solid;
             }
             font-size: 4rem;
-            // justify-content: space-around;
-            // border: solid;
             width: 40%;
             height: 17rem;
             text-align: center;

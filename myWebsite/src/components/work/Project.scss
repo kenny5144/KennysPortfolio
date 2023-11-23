@@ -19,7 +19,7 @@
     @media(max-width:767px){
       width: 80%;      // display: block;
       flex-direction: column;
-      margin-top: calc(60vh - 80%);
+      margin-top: calc(50vh - 80%);
 
     }
     .imageContainer{
@@ -29,7 +29,7 @@
       @media(max-width:767px){
           // width: 100%;    
           flex: 0.5;
-          height: 20% !important;
+          height: 30%;
           
   
       }
@@ -41,9 +41,8 @@
     .textContainer {
       @media(max-width:767px){
         transform: none !important;
-        // padding: 10px;
-        // align-items: center;
-        // text-align: center;
+      
+        gap: 15px;
 
     }
       flex: 1;
