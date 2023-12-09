@@ -18,6 +18,8 @@ const Main = () => {
     }
   return (
     <div className="Main">
+      <div className="center">
+
       <motion.div className="content" variants={textVariants} initial="initial" animate="animate">
         <motion.h1 variants={textVariants}>KEHINDE OJO</motion.h1>
         <motion.p variants={textVariants}>Web developer and Photographer </motion.p>
@@ -29,6 +31,7 @@ const Main = () => {
       </motion.div>
       <div className="me">
         <img   src={me} alt="" />
+      </div>
       </div>
     </div>
   )
