@@ -32,7 +32,7 @@ export const items = [
     },
     {
       id: 3,
-      title: <a target="blank" href="https://aquindoc.netlify.app/ ">Aquin</a> ,
+      title: <a target="blank" href="https://aquindoc.vercel.app/">Aquin</a> ,
       img:  aquin,
       des: "As a valuable contributor to a collaborative team focused on tool development, I've successfully transformed a series of JavaScript files into efficient React.js components. In the forthcoming update, I aim to further enhance my proficiency in Next.js, aspiring to deliver impactful solutions that contribute significantly to our projects.",
       tools:[react],

@@ -8,10 +8,9 @@ const About = () => {
           <span>About Me</span>
           <h4>
             {" "}
-            Experienced and adaptable software developer intern with expertise
-            in React, JavaScript, HTML, SQL, CSS, and Java microservices. Proven
-            ability to optimize codebases through refactoring and enhance
-            project efficiency who also have love for photography and take pictures in his free time .
+            Flexible and experienced computer student who is interested in leveraging his skill to build scalable and responsive webpage. Looking for
+ a role to help me grow.am also a student whose hobbies involve photography and playing sport 
+
           </h4>
         </div>
         <div className="skills">
