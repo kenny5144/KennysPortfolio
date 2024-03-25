@@ -79,26 +79,6 @@ export const items = [
     toolName:["Nextjs" ,"Tailwind css"]
   },
   {
-    id: 4,
-    title: (
-      <a target="blank" href="https://aquindoc.vercel.app/">
-        Game site
-      </a>
-    ),
-    links: [
-      {
-        linktosite: "https://game-site-app.vercel.app/",
-      },
-      {
-        linktocode: "https://github.com/kenny5144/gameSiteApp",
-      },
-    ],
-    img: gamesite,
-    des: "Crafted user-friendly login/signup pages with multi-factor authentication and password encryption for top-notch security. Developed a visually stunning game repository using React and Chakra UI, seamlessly organizing games by type for a delightful user experience.",
-    tools: [react, Mongodb, ChakaraUi],
-    toolName:["React ", "Mongodb", "ChakaraUI"]
-  },
-  {
     id: 3,
     title: (
       <a target="blank" href="https://aquindoc.vercel.app/">
@@ -118,6 +98,27 @@ export const items = [
     tools: [react],
     toolName:["React ", ]
   },
+  {
+    id: 4,
+    title: (
+      <a target="blank" href="https://aquindoc.vercel.app/">
+        Game site
+      </a>
+    ),
+    links: [
+      {
+        linktosite: "https://game-site-app.vercel.app/",
+      },
+      {
+        linktocode: "https://github.com/kenny5144/gameSiteApp",
+      },
+    ],
+    img: gamesite,
+    des: "Crafted user-friendly login/signup pages with multi-factor authentication and password encryption for top-notch security. Developed a visually stunning game repository using React and Chakra UI, seamlessly organizing games by type for a delightful user experience.",
+    tools: [react, Mongodb, ChakaraUi],
+    toolName:["React ", "Mongodb", "ChakaraUI"]
+  },
+ 
 
   
   // {
