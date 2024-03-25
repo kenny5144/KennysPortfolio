@@ -80,11 +80,11 @@ export const items = [
   },
   {
     id: 3,
-    title: (
-      <a target="blank" href="https://aquindoc.vercel.app/">
-        Resume Maker 
-      </a>
-    ),
+    title: 
+   
+        "Resume Maker "
+      
+    ,
     links: [
       {
         linktosite: "https://resume-maker-ashen.vercel.app/",
@@ -100,11 +100,10 @@ export const items = [
   },
   {
     id: 4,
-    title: (
-      <a target="blank" href="https://aquindoc.vercel.app/">
-        Game site
-      </a>
-    ),
+    title: 
+      "  Game site"
+     
+    ,
     links: [
       {
         linktosite: "https://game-site-app.vercel.app/",

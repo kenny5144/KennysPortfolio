@@ -32,6 +32,13 @@
       }
       img{
         width: 100%;
+        @media(max-width:767px){
+         width: 90%;
+        //  margin-left:2rem ;
+             
+     
+         }
+
       }
     }
     .textContainer {
