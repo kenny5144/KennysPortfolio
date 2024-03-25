@@ -22,7 +22,7 @@ const Main = () => {
 
       <motion.div className="content" variants={textVariants} initial="initial" animate="animate">
         <motion.h1 variants={textVariants}>KEHINDE OJO</motion.h1>
-        <motion.p variants={textVariants}>Web developer and Photographer </motion.p>
+        <motion.p  variants={textVariants}  >Web developer and Photographer </motion.p>
         <motion.div className="Links" variants={textVariants}>
             <motion.a className="work"href="#Portfolio"> See my work</motion.a>
             <motion.a className="contact" href="#Contact"> Contact me </motion.a>

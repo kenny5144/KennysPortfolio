@@ -52,14 +52,8 @@ const Contact = () => {
             <h2>Mail</h2>
             <span>ojok761@gmail.com</span>
           </div>
-          <div className="item">
-            <h2>Location</h2>
-            <span>Orange NJ</span>
-          </div>
-          <div className="item">
-            <h2>Phone</h2>
-            <span>+973 757 8155</span>
-          </div>
+      
+       
         </div>
         <div className="formContainer">
           <form ref={formref} onSubmit={sendEmail}>

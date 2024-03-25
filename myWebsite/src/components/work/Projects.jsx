@@ -19,16 +19,37 @@ const Projects = ({ item }) => {
             <img src={item.img} alt="" />
           </div>
           <motion.div className="textContainer" style={{ y }}>
+            <span className="Links">
+
             <h5 className="">{item.title}</h5>
+            <span >
+
+              <a href={item.links.linktosite}>Link to site</a>
+              <a href={item.links.linktocode}>Link to code</a>
+            </span>
+             </span>
             <p>{item.des}</p>
             <span className="tools">
               <p className="">Tools Used</p>
-              <div>
+              <div className="icons">
 
-             { console.log(item.tools)}
+          
               {Array.isArray(item.tools) ?item.tools.map((tool,index)=>(
+              
 
-              <span id="toolsUsed" key={index}>{tool}</span>
+
+                  <span id="toolsUsed" key={index}>{tool}</span>
+              
+
+              ))
+              :""
+            } 
+         <br />
+              {Array.isArray(item.toolName) ?item.toolName.map((tool,index)=>(
+               
+
+                    <span  id="textUsed"  key={index}>{tool}</span>
+              
               ))
               :""
             } 

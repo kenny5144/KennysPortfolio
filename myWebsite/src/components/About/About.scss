@@ -46,24 +46,30 @@
         }
         .skills{
             @media(max-width:767px){
-                font-size: 2rem;
                 width: 80%;
                 height: 40%;
                 // border: 1px solid;
             }
-            font-size: 4rem;
+            font-size: 3rem;
             width: 40%;
-            height: 17rem;
+            height: 25rem;
             text-align: center;
+            
+            // border: solid black ;
             .skillsItem{
+                justify-content: center;
+                font-size: 1.2rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 3rem;
                 margin-top: 2rem;
                 @media(max-width:787px){
                     display: flex;
                 }
                 svg{
-                    padding-left: 1rem;
                     font-size: 6rem;
                 }
+               
             }
          
             
