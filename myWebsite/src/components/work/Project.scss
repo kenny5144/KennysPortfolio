@@ -83,26 +83,27 @@
         font-size: .8rem;
 
       }
+      h5{
+        margin-right: 1rem;
+      }
     }
     .Links >span{
-      margin-top: 1rem;
+      // margin-top: .7rem;
       padding-left: 1rem;
-      @media(min-width:320px){
-        margin-top: .5rem;
+      @media(max-width:768px){
+        // margin-top: .5rem;
         margin-left: .5rem;
         padding: 0;
       display: flex;
         
 
-        
-
-      }
+      
     }
-    .Links >span >a{
-  
-      padding-left: .5rem;
-      text-decoration: underline;
+    svg{
+      color: white;
     }
+    }
+    
   }
 
 
@@ -130,6 +131,9 @@
 
  }
  #textUsed{
+  // padding-right:3rem ;
+  gap: 1rem;
+
   @media(max-width:700px){
     font-size: .7rem;
     gap: 1rem;

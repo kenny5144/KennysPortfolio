@@ -21,10 +21,20 @@ const Projects = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <span className="Links">
               <h5 className="">{item.title}</h5>
-              <span>
-                <a href={item.links.linktosite}>Link to site</a>
-                <a href={item.links.linktocode}>Link to code</a>
+                {
+                 item.links.map((links ,index)=>{
+                  return(
+
+                      <span>
+                        
+                      <p >{links.linktosite}</p>
+                      <p >{links.linktocode}</p>
+                      <p >{links.linkttolinkedin}</p>
+                  
               </span>
+                  )
+                    })
+                }
             </span>
             <p>{item.des}</p>
             <span className="tools">
