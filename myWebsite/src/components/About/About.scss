@@ -65,9 +65,13 @@
                 margin-top: 2rem;
                 @media(max-width:787px){
                     display: flex;
+                    margin-top: 1.3rem;;
                 }
                 svg{
                     font-size: 6rem;
+                    @media(max-width:787px){
+                       font-size: 3rem;
+                    }
                 }
                
             }

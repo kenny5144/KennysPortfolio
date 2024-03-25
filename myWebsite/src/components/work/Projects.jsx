@@ -1,6 +1,6 @@
 import { React, useRef } from "react";
-import { motion, useScroll,  useTransform } from "framer-motion";
- 
+import { motion, useScroll, useTransform } from "framer-motion";
+
 import "./Project.scss";
 const Projects = ({ item }) => {
   const ref = useRef();
@@ -20,43 +20,40 @@ const Projects = ({ item }) => {
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <span className="Links">
-
-            <h5 className="">{item.title}</h5>
-            <span >
-
-              <a href={item.links.linktosite}>Link to site</a>
-              <a href={item.links.linktocode}>Link to code</a>
+              <h5 className="">{item.title}</h5>
+              <span>
+                <a href={item.links.linktosite}>Link to site</a>
+                <a href={item.links.linktocode}>Link to code</a>
+              </span>
             </span>
-             </span>
             <p>{item.des}</p>
             <span className="tools">
               <p className="">Tools Used</p>
               <div className="icons">
-
-          
-              {Array.isArray(item.tools) ?item.tools.map((tool,index)=>(
-              
-
-
-                  <span id="toolsUsed" key={index}>{tool}</span>
-              
-
-              ))
-              :""
-            } 
-         <br />
-              {Array.isArray(item.toolName) ?item.toolName.map((tool,index)=>(
-               
-
-                    <span  id="textUsed"  key={index}>{tool}</span>
-              
-              ))
-              :""
-            } 
+                <div id="iconsUsed">
+                  {Array.isArray(item.tools)
+                    ? item.tools.map((tool, index) => (
+                        <span  key={index}>
+                          {tool}
+                        </span>
+                      ))
+                    : ""}
+                </div>
+                <br />
+                <div id="textUsed">
+                  {Array.isArray(item.toolName)
+                    ? item.toolName.map((tool, index) => (
+                        <span  key={index}>
+                          {tool}
+                        </span>
+                      ))
+                    : ""}
+                </div>
               </div>
             </span>
           </motion.div>
-        </div>.
+        </div>
+        .
       </div>
     </section>
   );

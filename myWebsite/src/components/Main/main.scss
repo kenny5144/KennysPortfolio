@@ -27,7 +27,7 @@
         color: rgb(5, 213, 250);
         @media(max-width: 768px){
          font-size: 1.1rem;
-         margin-top: -2rem;
+         margin-top: 0rem;
 
          padding: 2rem 0;
          text-align: center;
@@ -95,11 +95,10 @@
          width: 60%;
          margin-bottom: 7rem;
          @media (max-width: 767px) {
-           width: 80%;
+           width: 70%;
             
          }
       }
-   // height: 10rem;
 
 
    }
