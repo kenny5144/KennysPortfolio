@@ -1,5 +1,6 @@
 import"./main.scss"
 import me from "../img/me.jpg"
+import ss from "../img/ss.jpg"
 import {motion} from "framer-motion"
 const Main = () => {
     const textVariants = {
@@ -30,7 +31,7 @@ const Main = () => {
 
       </motion.div>
       <div className="me">
-        <img   src={me} alt="" />
+        <img   src={ss} alt="image of me " />
       </div>
       </div>
     </div>
